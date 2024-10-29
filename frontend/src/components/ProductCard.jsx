@@ -65,6 +65,7 @@ const ProductCard = ({ product }) => {
 				description: message,
 				status: "error",
 				duration: 3000,
+				type: "error",
 				isClosable: true,
 			});
 		} else {
@@ -73,6 +74,7 @@ const ProductCard = ({ product }) => {
 				description: "Product updated successfully",
 				status: "success",
 				duration: 3000,
+				type: "success",
 				isClosable: true,
 			});
 		}
